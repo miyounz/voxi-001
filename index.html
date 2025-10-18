@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>welcome to the mind of rachel!</title>
+
+
+<style>
+
+.container{
+display: grid;
+grid-template-columns: 250px 1fr;
+grid-template-rows: auto 1fr auto;
+gap: 15px;
+padding: 10px;
+}
+
+header, nav, main, footer{
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container .header {
+
+ grid-column: span 2;
+
+}
+
+
+.container .footer{
+
+ grid-column: span 2;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header class="header">
+<h1> Welcome to Rachel's World!</h1>
+</header>
+<nav class="menu">
+<a href="index.html">this is a link!</a> | <a href="index.html">this is a link!</a> | <a href="index.html">this is a link!</a> | <a href="index.html">this is a link!</a>
+
+</nav>
+
+<main class="main">
+
+<h2>Hi I am the main content area</h2>
+
+</main>
+
+<footer class="footer">
+
+<p>Hi I am the footer</p>
+
+</footer>
+</div>
+</body>
+</html>
